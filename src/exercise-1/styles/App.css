@@ -1,0 +1,23 @@
+.header {
+    background-color: rgba(216, 215, 215, 0.829);
+    height: 50px;
+    padding: 20px auto 20px auto;
+    
+}
+.homeLink,
+.profileLink,
+.aboutLink {
+    margin: 10px 30px;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* .homeLink:active,
+.profileLink:active,
+.aboutLink:hover{
+    text-decoration: underline;
+} */
+.body {
+    padding: 8%;
+}
