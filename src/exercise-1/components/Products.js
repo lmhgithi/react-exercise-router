@@ -31,7 +31,8 @@ class Products extends Component {
                     this.state.products.map(product => (
                         <Link className="productsLink" 
                         key={product.id}
-                        to={"/products/" + product.id}>{product.name}</Link>
+                        // to={"/products/" + product.id}>{product.name}</Link>
+                        to={`/products/${product.id}`}>{product.name}</Link>
                     ))
                 }
             </div>

@@ -13,10 +13,10 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path='/about' component={About} />
-            <Route exact path='/notMatch' component={NotMatch} />
+            {/* <Route exact path='/notMatch' component={NotMatch} /> */}
             <Route exact path='/' component={Home} />
-            <Route exact path='/:user' component={User} />
-
+            <Route exact path='/:user(\d+)' component={User} />
+            <Route component={NotMatch} />
           </Switch>
         </Router>
       </div>
